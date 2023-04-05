@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ResultFragment">
+
+    <TextView
+        android:id="@+id/won_lost_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="@font/noticia_text_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:letterSpacing="0.1"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/start_new_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/start_new_game"
+        android:background="@drawable/rounder_button"
+        android:paddingHorizontal="30dp"
+        android:textSize="16sp"
+        android:elevation="10dp"
+        android:fontFamily="@font/noticia_text"
+        android:textColor="@color/black" />
+</LinearLayout>
